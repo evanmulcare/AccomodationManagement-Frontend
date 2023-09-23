@@ -5,9 +5,8 @@ import App from './App';
 import { ContextProvider } from './contexts/ContextProvider';
 import { Auth0Provider } from '@auth0/auth0-react';
 
-// Get the Auth0 domain, client ID, and audience from environment variables
-const domain = process.env.REACT_APP_AUTH0_DOMAIN;
-const clientId = process.env.REACT_APP_AUTH0_CLIENT_ID;
+const domain = "dev-ejnjwmtbgqu8ys5c.us.auth0.com";
+const clientId = "erwuuMF4mH74uvyheku0NTD10lNknEkJ";
 
 // Render the app with the ContextProvider and Auth0Provider components
 ReactDOM.render(
